@@ -14,7 +14,7 @@ function setTheme(theme) {
 }
 
 let storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-setTheme(storedTheme === "dark" || storedTheme === "light" ? storedTheme : systemTheme);
+setTheme(storedTheme === "dark" || storedTheme === "light" ? storedTheme : SYSTEM_THEME);
 
 // listen for theme button clicked and toggle theme
 ELEMENTS.themeToggle.addEventListener("click", () => {
