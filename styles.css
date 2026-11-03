@@ -49,16 +49,6 @@ body {
   margin: 0;
 }
 
-.back-link {
-  margin-left: auto;
-  color: var(--text-secondary);
-  font-size: 13px;
-}
-
-.back-link:hover {
-  text-decoration: underline;
-}
-
 .mod-icon {
   width: 48px;
   height: 48px;
