@@ -61,6 +61,10 @@ body {
   overflow-y: auto;
 }
 
+.page-scroll.has-scrollbar {
+  padding-right: 10px;
+}
+
 .page-footer {
   display: flex;
   align-items: center;
